@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+#mainTop{
+    position: fixed;
+    width: 100%;
+}
+
+#topBars{
+    background-color: #0C9786;
+    padding:10px;
+    color:white;
+    height: auto;
+    overflow: auto;
+}
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+.topLeft{
+    width:50%;
+    float: left;
+}
+
+.topRight{
+    width:50%;
+    float: right;
+}
+
+.topRight ul{
+    margin: 0;
+    text-align: right;
+}
+
+.topRight ul li{
+    display: inline;
+}
+
+.topRight ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRights ul{
+    margin: 0;
+   
+}
+
+.topRights ul li{
+    display: inline;
+}
+
+.topRights ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#topMenus{
+    background-color: black;
+    height: auto;
+    overflow: auto;
+    padding:10px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.menus ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+.menus ul li a{
+    color: white;
+}
