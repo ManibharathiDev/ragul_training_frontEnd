@@ -174,3 +174,85 @@ body{
     right: -70px;
     transform: rotate(-90deg);
 }
+
+.review{
+    margin-top: 50px;
+}
+
+.reviews{
+    background: url('../image/bg-review.jpg');
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stuReview h4{
+    font-size: 45px;
+    color: white;
+}
+
+.rFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rContent{
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.rForms{
+    background-color: white;
+}
+
+.rHeading{
+    background-color: #0B83C4;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reviewFlex{
+    display: flex;
+}
+
+.stuReview{
+    margin-right: 80px;
+}
+
+.stuForm{
+    width: 400px;
+}
+
+.rForm{
+    padding: 10px;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.rForm input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.rForm button{
+    width: 100%;
+    height: 45px;
+    background-color: red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
