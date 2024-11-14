@@ -13,7 +13,7 @@ let e = 10;
 let f = 45;
 let g = 20;
 ((e>f) && (e>g))?console.log("E is greatest"):((f>g)?("F is greatest"):console.log("G is greatest"));
-
+////Find the greatest number between four numbers
 
 
 
