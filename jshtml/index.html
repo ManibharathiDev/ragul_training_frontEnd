@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Integration</title>
+</head>
+<body>
+    <h1>Javascript Integration</h1>
+    <div id="heading">
+        <h1>Welcome</h1>
+        <h2>Developers</h2>
+    </div>
+
+    <div id="myTitle"></div>
+    
+    <script src="script.js" type="text/Javascript"></script>
+    <script type="text/Javascript">
+            //console.log("I am working good");
+            //alert("I am working good");
+            //let heads = document.getElementById("heading").innerText;
+            let heads = document.getElementById("heading").innerHTML;
+            //alert(heads);
+
+            let title = document.getElementById("myTitle");
+            title.innerText = "Ragul";
+            title.innerHTML = "<h1>Ragul</h1>";
+            title.style.color = "#FF0000";
+            title.style.fontSize = "50px";
+
+
+    </script>
+</body>
+</html>

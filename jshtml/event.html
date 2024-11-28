@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Event Handling-->
+
+    <button onclick="displayAlert()">Click Me</button>
+
+    <button ondblclick="displayAlert()">Click Doubles</button>
+
+    <form>
+        <label>Enter your name</label>
+        <input type="text" id="myName"/></br>
+        <button type="button" onclick="getMyName()">Get My Name</button>
+    </form>
+    
+    <script type="text/Javascript">
+
+        function getMyName(params) 
+        {
+              let myname = document.getElementById("myName").value;  
+              alert("You are "+myname)
+        }
+
+        function displayAlert(){
+            //alert("Hey! You clicked me!");
+            for(let i = 1; i<=5; i++)
+            {
+                //alert("You have clicked "+i);
+                console.log("You have clicked",i);
+            }
+        }
+
+    </script>
+</body>
+</html>
