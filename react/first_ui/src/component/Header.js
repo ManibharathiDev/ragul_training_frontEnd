@@ -1,26 +1,24 @@
+// import { Link } from 'react-router'
 const Header = () =>{
-
-    const styles = {
-        "backgroundColor":"#FF0000",
-                "color":"#FFFFFF",
-                "padding":"10px",
-                "textAlign":"center",
-    }
-
     return(
         <>
-           <h1 style={{
-                "backgroundColor":"#FF0000",
-                "color":"#FFFFFF",
-                "padding":"10px",
-                "textAlign":"center",
-            }}>This is My Header Page</h1>
+        <div className="myHeader">
+            <div>
+                <span>
+                    Call Us : +919944033729 | 9988788989
+                </span>
 
-            <h1 style={styles}>
-                Welcome to my course
-            </h1>    
-
+                <span>
+                    Mail : qtreetechnologies@gmail.com
+                </span>
+            </div>
+            <div>
+            <span><a href="https://www.facebook.com/" target="_blank">F</a></span>&nbsp;&nbsp;
+            <span>I</span>&nbsp;&nbsp;
+            <span>Y</span>
+            </div>  
+        </div>
         </>
     );
-}
+};
 export default Header;

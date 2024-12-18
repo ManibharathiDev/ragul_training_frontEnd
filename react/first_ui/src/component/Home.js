@@ -1,13 +1,14 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header from "./Header";
+import Slider from "./Slider";
+import TopBar from "./TopBar";
 
 const Home = () =>{
     return(
         <>
-            <Header />
-            <h1>QTree Technologies</h1>
-            <Footer/>
+            <Header/>
+            <TopBar/>
+            <Slider/>
         </>
     );
-}
+};
 export default Home;
